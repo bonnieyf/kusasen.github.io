@@ -1,35 +1,45 @@
 <!DOCTYPE html>
 <html lang="zh">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About - Kusa Wang</title>
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
+        integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
     <!-- google font -->
-    <link href="https://fonts.googleapis.com/css?family=Caveat:700|Hind+Madurai:400,700|Noto+Sans+TC:400,500,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/web.css?t=1580278354004">
+    <link
+        href="https://fonts.googleapis.com/css?family=Caveat:700|Hind+Madurai:400,700|Noto+Sans+TC:400,500,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/js/venobox/venobox.css?t=1580572625251">
+    <link rel="stylesheet" href="./assets/css/animate.css?t=1580572625251">
+    <link rel="stylesheet" href="./assets/css/web.css?t=1580572625251">
 </head>
+
 <body>
     <div class="fix-bg"></div>
 
     <!-- container -->
     <div id="wrapper">
 
-        <header id="header">
+        <header id="header" class="wow fadeIn" data-wow-duration="1s"  data-wow-delay="0s">
             <div class="container">
                 <div class="header-flex">
-                    <div class="header-flex--col"><div class="logo"><a href="#"><img src="assets/images/logo.png" alt=""></a></div></div>
+                    <div class="header-flex--col">
+                        <div class="logo"><a href="javascript:;"><img src="./assets/images/logo.png" alt=""></a></div>
+                    </div>
                     <div class="header-flex--col">
                         <div class="navis-group">
                             <nav class="navis">
-                                <a href="#">工作經歷</a>
-                                <a href="#">技能</a>
-                                <a href="#">作品集</a>
-                                <a href="#"><i class="fab fa-facebook"></i></a>
-                                <a href="#"><i class="fab fa-github"></i></a>
+                                <a href="#experience" class="anchor">工作經歷</a>
+                                <a href="#skills" class="anchor">技能</a>
+                                <a href="#works" class="anchor">作品集</a>
+                                <a href="https://www.facebook.com/kayla2w" target="_blank"><i class="fab fa-facebook"></i></a>
+                                <a href="https://github.com/kusasen" target="_blank"><i class="fab fa-github"></i></a>
                             </nav>
                         </div>
                     </div>
@@ -42,15 +52,17 @@
             <div class="container">
                 <div class="aboutme-box">
                     <div class="aboutme-box--col">
-                        <div class="picture"><img src="assets/images/pic-kusa.jpg" alt="Kuas Wang"></div>
+                        <div class="picture wow zoomIn" data-wow-duration="1s"  data-wow-delay="0s"><img src="./assets/images/pic-kusa.jpg" alt="Kuas Wang"></div>
                     </div>
                     <div class="aboutme-box--col">
-                        <h2 class="sub-title">Frontend Engineer</h2>
-                        <h1 class="title" lang="en">Kusa Wang</h1>
-                        <div class="infor">
-                            <p>最近正在學習 Vue.js 及 Typescript ，想讓自己能夠嘗試學習不一樣的製作方法，並將自己多年的工作經驗和新的技術融合，除了能增進自己的開發經驗、眼界及能力，就是因為不是本科系，所以這樣的想法能夠促使自己一直持續學習，掌握更多不一樣的開發方式。</p>
+                        <h2 class="sub-title wow fadeInRight" data-wow-duration="1s"  data-wow-delay=".3s">Frontend Engineer</h2>
+                        <h1 class="title wow fadeInRight" data-wow-duration="1s"  data-wow-delay=".4s" lang="en">Kusa Wang</h1>
+                        <div class="infor wow fadeInRight" data-wow-duration="1s"  data-wow-delay=".5s">
+                            <p>最近正在學習 Vue.js 及 Typescript
+                                ，想讓自己能夠嘗試學習不一樣的製作方法，並將自己多年的工作經驗和新的技術融合，除了能增進自己的開發經驗、眼界及能力，就是因為不是本科系，所以這樣的想法能夠促使自己一直持續學習，掌握更多不一樣的開發方式。
+                            </p>
                         </div>
-                        <div class="btn"><a href="#">Download CV</a></div>
+                        <div class="btn wow fadeInRight" data-wow-duration="1s"  data-wow-delay=".6s"><a href="./assets/images/履歷表-王瑩鳳.pdf" download="">Download CV</a></div>
                     </div>
                 </div>
             </div>
@@ -58,12 +70,12 @@
 
         <!-- #2 experience-->
         <section id="experience">
-            <div class="section-title">
+            <div class="section-title wow fadeInUp" data-wow-duration="1s">
                 <h2>工作經歷</h2>
                 <div class="line"></div>
             </div>
             <div class="container">
-                <div class="timeline">
+                <div class="timeline wow fadeInUp" data-wow-duration="1s"  data-wow-delay=".2s">
                     <div class="timeilne-data">
                         <div class="data">2016/10 <br>- 迄今</div>
                         <div class="circle"></div>
@@ -73,12 +85,14 @@
                         <h2 class="title">香港商泓酷有限公司台灣分公司</h2>
                         <h3 class="sub-title">前端工程師</h3>
                         <div class="infor">
-                            <p>該公司主要是接案公司，主要營業範圍為製作知名車廠、香港知名三星餐廳委託之 WordPress 網站及大規模的官方網站或是活動網站，涵蓋港台的網站業務。而我的任務是製作具有維護性、設計易使用的 Responsive Web Design / WrodPress 網站、利用 HTML / CSS / JavaScript / 圖片優化，能夠快速載入的網站。並協助公司維運，安排新需求之排程及規劃前端架構。</p>
+                            <p>該公司主要是接案公司，主要營業範圍為製作知名車廠、香港知名三星餐廳委託之 WordPress
+                                網站及大規模的官方網站或是活動網站，涵蓋港台的網站業務。而我的任務是製作具有維護性、設計易使用的 Responsive Web Design / WrodPress 網站、利用
+                                HTML / CSS / JavaScript / 圖片優化，能夠快速載入的網站。並協助公司維運，安排新需求之排程及規劃前端架構。</p>
                             <p>目前製作過的網站有香港三星餐廳委託之 Wordpress 之網站、知名日語教育體系官方網站、國內零件大廠委託之具有多語系、及知名影音公司委託的的官方網站等，並持續維運中。</p>
                         </div>
                     </div>
                 </div>
-                <div class="timeline">
+                <div class="timeline wow fadeInUp" data-wow-duration="1s"  data-wow-delay=".3s">
                     <div class="timeilne-data">
                         <div class="data">2015/10 <br> 2016/09</div>
                         <div class="circle"></div>
@@ -88,11 +102,13 @@
                         <h2 class="title">BabyHome 寶貝家庭親子網</h2>
                         <h3 class="sub-title">前端工程師</h3>
                         <div class="infor">
-                            <p>公司主要業務是官網維運、討論區及接受業務部所發來的活動頁需求，我主要的任務，協助公司重新設計官網及討論區部分舊有架構，加速載入速度，解決 Google PageSpeed 上的問題以及製作活動頁小遊戲 (命運轉盤、翻牌遊戲等) 、設計 App 畫面等需求，也在此多次分享自身設計的經驗提供給後端同事參考、交流，並討論如何改善公司網頁，達到最高效率的解決方式。</p>
+                            <p>公司主要業務是官網維運、討論區及接受業務部所發來的活動頁需求，我主要的任務，協助公司重新設計官網及討論區部分舊有架構，加速載入速度，解決 Google PageSpeed
+                                上的問題以及製作活動頁小遊戲 (命運轉盤、翻牌遊戲等) 、設計 App
+                                畫面等需求，也在此多次分享自身設計的經驗提供給後端同事參考、交流，並討論如何改善公司網頁，達到最高效率的解決方式。</p>
                         </div>
                     </div>
                 </div>
-                <div class="timeline">
+                <div class="timeline wow fadeInUp" data-wow-duration="1s"  data-wow-delay=".4s">
                     <div class="timeilne-data">
                         <div class="data">2012/06 <br> 2015/09</div>
                         <div class="circle"></div>
@@ -102,11 +118,12 @@
                         <h2 class="title">才式創意科技有限公司</h2>
                         <h3 class="sub-title">前端工程師・視覺設計師</h3>
                         <div class="infor">
-                            <p>公司主要業務是知名速食餐廳官網及各類官網維運、製作HTML5 Ad Banner 、各類型活動案製作。工作內容是設計網頁視覺、Banner 設計 及 Banner Resize 設計，也專職在程式設計、網頁切版、設計具有維運性質及動態設計的官網。</p>
+                            <p>公司主要業務是知名速食餐廳官網及各類官網維運、製作HTML5 Ad Banner 、各類型活動案製作。工作內容是設計網頁視覺、Banner 設計 及 Banner Resize
+                                設計，也專職在程式設計、網頁切版、設計具有維運性質及動態設計的官網。</p>
                         </div>
                     </div>
                 </div>
-                <div class="timeline">
+                <div class="timeline wow fadeInUp" data-wow-duration="1s"  data-wow-delay=".5s">
                     <div class="timeilne-data">
                         <div class="data">2011/06 <br> 2012/06</div>
                         <div class="circle"></div>
@@ -116,7 +133,8 @@
                         <h2 class="title">鑫承智慧有限公司</h2>
                         <h3 class="sub-title">視覺設計師</h3>
                         <div class="infor">
-                            <p>該公司主要是負責代理掃地機器人產品的公司、製作幼教教育影片等業務，我擔任該公司的幼教教育視覺設計部分，設計網路宣傳視覺、負責 Facebook 粉絲專頁視覺、協助製作平面 DM 以及網路 EDM 等等。與同事相互交流、設計官方網站及製作一個幼兒教育官方網站。</p>
+                            <p>該公司主要是負責代理掃地機器人產品的公司、製作幼教教育影片等業務，我擔任該公司的幼教教育視覺設計部分，設計網路宣傳視覺、負責 Facebook 粉絲專頁視覺、協助製作平面 DM
+                                以及網路 EDM 等等。與同事相互交流、設計官方網站及製作一個幼兒教育官方網站。</p>
                         </div>
                     </div>
                 </div>
@@ -125,14 +143,14 @@
 
         <!-- #3 skills-->
         <section id="skills">
-            <div class="section-title">
+            <div class="section-title wow fadeInUp" data-wow-duration="1s"  data-wow-delay=".5s">
                 <h2>技能</h2>
                 <div class="line"></div>
             </div>
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-md-6 col-lg-4">
-                        <div class="skill-group">
+                        <div class="skill-group wow fadeInUp" data-wow-duration="1s"  data-wow-delay=".6s">
                             <h3 class="title">繪圖及軟體技能</h3>
                             <div class="skill-item">
                                 <i class="ico ico-ps"></i>
@@ -157,217 +175,440 @@
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4">
-                        <div class="skill-group">
+                        <div class="skill-group wow fadeInUp" data-wow-duration="1s"  data-wow-delay=".7s">
                             <h3 class="title">網站規劃及開發技能</h3>
-                            <div class="skill-item dot">
-                                <i class="ico-dot"></i>
-                                <span>JavaScript <em>普通</em></span>
+                            <div class="skill-item">
+                                <em>純熟</em>
+                                <span>JQuery </span>
                             </div>
-                            <div class="skill-item dot">
-                                <i class="ico-dot"></i>
-                                <span>JQuery <em>純熟</em></span>
+                            <div class="skill-item">
+                                <em>純熟</em>
+                                <span>CSS / SASS / SCSS </span>
                             </div>
-                            <div class="skill-item dot">
-                                <i class="ico-dot"></i>
-                                <span>CSS / SASS / SCSS <em>純熟</em></span>
+                            <div class="skill-item">
+                                <em>純熟</em>
+                                <span>HTML </span>
                             </div>
-                            <div class="skill-item dot">
-                                <i class="ico-dot"></i>
-                                <span>HTML <em>純熟</em></span>
+                            <div class="skill-item">
+                                <em>純熟</em>
+                                <span>RWD </span>
                             </div>
-                            <div class="skill-item dot">
-                                <i class="ico-dot"></i>
-                                <span>RWD <em>純熟</em></span>
+                            <div class="skill-item">
+                                <em>純熟</em>
+                                <span>SVG Animation </span>
                             </div>
-                            <div class="skill-item dot">
-                                <i class="ico-dot"></i>
-                                <span>SVG Animation <em>純熟</em></span>
+                            <div class="skill-item">
+                                <em class="level-1">普通</em>
+                                <span>JavaScript </span>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4">
-                        <div class="skill-group">
+                        <div class="skill-group wow fadeInUp" data-wow-duration="1s"  data-wow-delay=".8s">
                             <h3 class="title">開發工具與套件使用</h3>
-                            <div class="skill-item dot">
-                                <i class="ico-dot"></i>
-                                <span>Bootstrap<em>純熟</em></span>
+                            <div class="skill-item">
+                                <em>純熟</em>
+                                <span>Bootstrap</span>
                             </div>
-                            <div class="skill-item dot">
-                                <i class="ico-dot"></i>
-                                <span>WordPress<em>普通</em></span>
+                            <div class="skill-item">
+                                <em>普通</em>
+                                <span>WordPress</span>
                             </div>
-                            <div class="skill-item dot">
-                                <i class="ico-dot"></i>
-                                <span>npm / Gulp<em>純熟</em></span>
+                            <div class="skill-item">
+                                <em>純熟</em>
+                                <span>npm / Gulp</span>
                             </div>
-                            <div class="skill-item dot">
-                                <i class="ico-dot"></i>
-                                <span>GIT / SourceTree<em>純熟</em></span>
+                            <div class="skill-item">
+                                <em>純熟</em>
+                                <span>GIT / SourceTree</span>
                             </div>
-                            <div class="skill-item dot">
-                                <i class="ico-dot"></i>
-                                <span>GreenSock TimelineMax<em>純熟</em></span>
+                            <div class="skill-item">
+                                <em>純熟</em>
+                                <span>GreenSock TimelineMax</span>
                             </div>
-                            <div class="skill-item dot">
-                                <i class="ico-dot"></i>
-                                <span>PHP <em>略懂</em></span>
+                            <div class="skill-item">
+                                <em class="level-1">略懂</em>
+                                <span>PHP</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            
+
         </section>
 
         <!-- #4 works-->
         <section id="works">
-            <div class="section-title">
+            <div class="section-title wow fadeInUp" data-wow-duration="1s"  data-wow-delay=".5s">
                 <h2>作品集</h2>
                 <div class="line"></div>
             </div>
             <div class="container">
-                <div class="works-navis">
-                    <a href="#">All</a>
-                    <a href="#">WordPress</a>
-                    <a href="#">Design</a>
-                    <a href="#">illustrator</a>
-                    <a href="#">RWD</a>
+                <div class="works-navis  wow fadeInUp" data-wow-duration="1s"  data-wow-delay=".6s">
+                    <a href="#" class="active" data-filter="*">All</a>
+                    <a href="#" data-filter=".web">Website</a>
+                    <a href="#" data-filter=".wordpress">WordPress</a>
+                    <a href="#" data-filter=".design">Design</a>
+                    <a href="#" data-filter=".illustrator">illustrator</a>
                 </div>
 
-
-                <div class="works-list">
+                <div class="works-list wow fadeInUp" data-wow-duration="1s"  data-wow-delay=".7s">
                     <div class="row">
-                        <div class="col-sm-12 col-md-6 col-lg-4">
-                            <div class="work-item">
-                                <div class="pic" style="background-image: url(assets/images/demo.jpg);"></div>
+                        <div class="element-item col-sm-12 col-md-6 col-lg-4 web">
+                            <div class="work-item"><a data-gall="gallery01" href="./assets/images/works/work_20_2_img.png" target="_blank" class="link venobox"></a>
+                                <div class="pic" style="background-image: url(./assets/images/works/work_20_2.jpg)">
+                                </div>
                                 <div class="infor">
-                                    <div class="icons">
-                                        <i class="fas fa-desktop"></i>
-                                        <i class="fas fa-mobile-alt"></i>
-                                    </div>
+                                    <div class="icons"><i class="fas fa-desktop"></i><i
+                                            class="fas fa-mobile-alt"></i></div>
                                     <div class="content">
-                                        <h2 class="title">香港知名三星餐廳</h2>
-                                        <p class="txt">I love to work in User Experience & User Interface designing. Because I love to solve the design problem and find easy and better solutions to solve it ....</p>
+                                        <h2 class="title">日語教材官方網站及會員後台</h2>
+                                        <p class="txt">動態設計 / 切版整合 / RWD</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-6 col-lg-4">
-                            <div class="work-item">
-                                <div class="pic" style="background-image: url(assets/images/demo.jpg);"></div>
+                        <div class="element-item col-sm-12 col-md-6 col-lg-4 web">
+                            <div class="work-item"><a data-gall="gallery01" href="./assets/images/works/work_20_7_img.png" target="_blank" class="link venobox"></a>
+                                <div class="pic" style="background-image: url(./assets/images/works/work_20_7.jpg)">
+                                </div>
                                 <div class="infor">
-                                    <div class="icons">
-                                        <i class="fas fa-desktop"></i>
-                                        <i class="fas fa-mobile-alt"></i>
-                                    </div>
+                                    <div class="icons"><i class="fas fa-desktop"></i><i
+                                            class="fas fa-mobile-alt"></i></div>
                                     <div class="content">
-                                        <h2 class="title">香港知名三星餐廳</h2>
-                                        <p class="txt">I love to work in User Experience & User Interface designing. Because I love to solve the design problem and find easy and better solutions to solve it ....</p>
+                                        <h2 class="title">影音平台官方網站</h2>
+                                        <p class="txt">動態設計 / 切版整合 / RWD</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-6 col-lg-4">
-                            <div class="work-item">
-                                <div class="pic" style="background-image: url(assets/images/demo.jpg);"></div>
+                        <div class="element-item col-sm-12 col-md-6 col-lg-4 web">
+                            <div class="work-item"><a data-gall="gallery01" href="./assets/images/works/work_20_8_img.png" target="_blank" class="link venobox"></a>
+                                <div class="pic" style="background-image: url(./assets/images/works/work_20_8.jpg)">
+                                </div>
                                 <div class="infor">
-                                    <div class="icons">
-                                        <i class="fas fa-desktop"></i>
-                                        <i class="fas fa-mobile-alt"></i>
-                                    </div>
+                                    <div class="icons"><i class="fas fa-desktop"></i><i
+                                            class="fas fa-mobile-alt"></i></div>
                                     <div class="content">
-                                        <h2 class="title">香港知名三星餐廳</h2>
-                                        <p class="txt">I love to work in User Experience & User Interface designing. Because I love to solve the design problem and find easy and better solutions to solve it ....</p>
+                                        <h2 class="title">精密零件官方購物網站</h2>
+                                        <p class="txt">動態設計 / 切版整合 / RWD</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-6 col-lg-4">
-                            <div class="work-item">
-                                <div class="pic" style="background-image: url(assets/images/demo.jpg);"></div>
+                        <div class="element-item col-sm-12 col-md-6 col-lg-4 wordpress web">
+                            <div class="work-item"><a data-gall="gallery01" href="./assets/images/works/work_20_1_img.png" target="_blank" class="link venobox"></a>
+                                <div class="pic" style="background-image: url(./assets/images/works/work_20_1.jpg)">
+                                </div>
                                 <div class="infor">
-                                    <div class="icons">
-                                        <i class="fas fa-desktop"></i>
-                                        <i class="fas fa-mobile-alt"></i>
-                                    </div>
+                                    <div class="icons"><i class="fas fa-desktop"></i><i
+                                            class="fas fa-mobile-alt"></i></div>
                                     <div class="content">
                                         <h2 class="title">香港知名三星餐廳</h2>
-                                        <p class="txt">I love to work in User Experience & User Interface designing. Because I love to solve the design problem and find easy and better solutions to solve it ....</p>
+                                        <p class="txt">動態設計 / 切版整合 / RWD / WordPress</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-6 col-lg-4">
-                            <div class="work-item">
-                                <div class="pic" style="background-image: url(assets/images/demo.jpg);"></div>
+                        <div class="element-item col-sm-12 col-md-6 col-lg-4 web">
+                            <div class="work-item"><a data-gall="gallery01" href="./assets/images/works/work_20_3_img.png" target="_blank" class="link venobox"></a>
+                                <div class="pic" style="background-image: url(./assets/images/works/work_20_3.jpg)">
+                                </div>
                                 <div class="infor">
-                                    <div class="icons">
-                                        <i class="fas fa-desktop"></i>
-                                        <i class="fas fa-mobile-alt"></i>
-                                    </div>
+                                    <div class="icons"><i class="fas fa-desktop"></i><i
+                                            class="fas fa-mobile-alt"></i></div>
                                     <div class="content">
-                                        <h2 class="title">香港知名三星餐廳</h2>
-                                        <p class="txt">I love to work in User Experience & User Interface designing. Because I love to solve the design problem and find easy and better solutions to solve it ....</p>
+                                        <h2 class="title">精密零件加工廠商官方網站</h2>
+                                        <p class="txt">動態設計 / 切版整合 / RWD</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-6 col-lg-4">
-                            <div class="work-item">
-                                <div class="pic" style="background-image: url(assets/images/demo.jpg);"></div>
+                        <div class="element-item col-sm-12 col-md-6 col-lg-4 web">
+                            <div class="work-item"><a data-gall="gallery01" href="./assets/images/works/work_20_9_img.png" target="_blank" class="link venobox"></a>
+                                <div class="pic" style="background-image: url(./assets/images/works/work_20_9.jpg)">
+                                </div>
                                 <div class="infor">
-                                    <div class="icons">
-                                        <i class="fas fa-desktop"></i>
-                                        <i class="fas fa-mobile-alt"></i>
-                                    </div>
+                                    <div class="icons"><i class="fas fa-desktop"></i><i
+                                            class="fas fa-mobile-alt"></i></div>
                                     <div class="content">
-                                        <h2 class="title">香港知名三星餐廳</h2>
-                                        <p class="txt">I love to work in User Experience & User Interface designing. Because I love to solve the design problem and find easy and better solutions to solve it ....</p>
+                                        <h2 class="title">知名電商活動網站</h2>
+                                        <p class="txt">動態設計 / 切版整合 / RWD</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-6 col-lg-4">
-                            <div class="work-item">
-                                <div class="pic" style="background-image: url(assets/images/demo.jpg);"></div>
+                        <div class="element-item col-sm-12 col-md-6 col-lg-4 web">
+                            <div class="work-item"><a data-gall="gallery01" href="./assets/images/works/work_20_4_img.png" target="_blank" class="link venobox"></a>
+                                <div class="pic" style="background-image: url(./assets/images/works/work_20_4.jpg)">
+                                </div>
                                 <div class="infor">
-                                    <div class="icons">
-                                        <i class="fas fa-desktop"></i>
-                                        <i class="fas fa-mobile-alt"></i>
-                                    </div>
+                                    <div class="icons"><i class="fas fa-desktop"></i><i
+                                            class="fas fa-mobile-alt"></i></div>
                                     <div class="content">
-                                        <h2 class="title">香港知名三星餐廳</h2>
-                                        <p class="txt">I love to work in User Experience & User Interface designing. Because I love to solve the design problem and find easy and better solutions to solve it ....</p>
+                                        <h2 class="title">知名週刊海獺專題報導</h2>
+                                        <p class="txt">動態設計 / 切版整合 / PC & Mobile / GA Tracking</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-6 col-lg-4">
-                            <div class="work-item">
-                                <div class="pic" style="background-image: url(assets/images/demo.jpg);"></div>
+                        <div class="element-item col-sm-12 col-md-6 col-lg-4 web">
+                            <div class="work-item"><a data-gall="gallery01" href="./assets/images/works/work_20_5_img.png" target="_blank" class="link venobox"></a>
+                                <div class="pic" style="background-image: url(./assets/images/works/work_20_5.jpg)">
+                                </div>
                                 <div class="infor">
-                                    <div class="icons">
-                                        <i class="fas fa-desktop"></i>
-                                        <i class="fas fa-mobile-alt"></i>
-                                    </div>
+                                    <div class="icons pc"><i class="fas fa-desktop"></i><i
+                                            class="fas fa-mobile-alt"></i></div>
                                     <div class="content">
-                                        <h2 class="title">香港知名三星餐廳</h2>
-                                        <p class="txt">I love to work in User Experience & User Interface designing. Because I love to solve the design problem and find easy and better solutions to solve it ....</p>
+                                        <h2 class="title">知名車商活動網站</h2>
+                                        <p class="txt">動態設計 / 切版整合 / PC / GA Tracking</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-6 col-lg-4">
-                            <div class="work-item">
-                                <div class="pic" style="background-image: url(assets/images/demo.jpg);"></div>
+                        <div class="element-item col-sm-12 col-md-6 col-lg-4 web">
+                            <div class="work-item"><a data-gall="gallery01" href="./assets/images/works/work_20_6_img.png" target="_blank" class="link venobox"></a>
+                                <div class="pic" style="background-image: url(./assets/images/works/work_20_6.jpg)">
+                                </div>
                                 <div class="infor">
-                                    <div class="icons">
-                                        <i class="fas fa-desktop"></i>
-                                        <i class="fas fa-mobile-alt"></i>
-                                    </div>
+                                    <div class="icons"><i class="fas fa-desktop"></i><i
+                                            class="fas fa-mobile-alt"></i></div>
                                     <div class="content">
-                                        <h2 class="title">香港知名三星餐廳</h2>
-                                        <p class="txt">I love to work in User Experience & User Interface designing. Because I love to solve the design problem and find easy and better solutions to solve it ....</p>
+                                        <h2 class="title">知名雜誌與西武鐵道合作活動網站</h2>
+                                        <p class="txt">動態設計 / 切版整合 / RWD / GA Tracking</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="element-item col-sm-12 col-md-6 col-lg-4 web">
+                            <div class="work-item  "><a
+                                    href="http://demo.great3.com.tw/kusa/201507_nivea/index.html" target="_blank"
+                                    class="link"></a>
+                                <div class="pic" style="background-image: url(./assets/images/works/work_0.jpg)">
+                                </div>
+                                <div class="infor">
+                                    <div class="icons pc"><i class="fas fa-desktop"></i><i
+                                            class="fas fa-mobile-alt"></i></div>
+                                    <div class="content">
+                                        <h2 class="title">NIVEA 我的美白新標準</h2>
+                                        <p class="txt">動態設計 / 切版整合 / PC</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="element-item col-sm-12 col-md-6 col-lg-4 web">
+                            <div class="work-item  "><a
+                                    href="http://demo.great3.com.tw/kusa/201506_tea/index.html" target="_blank"
+                                    class="link"></a>
+                                <div class="pic" style="background-image: url(./assets/images/works/work_1.jpg)">
+                                </div>
+                                <div class="infor">
+                                    <div class="icons pcmob"><i class="fas fa-desktop"></i><i
+                                            class="fas fa-mobile-alt"></i></div>
+                                    <div class="content">
+                                        <h2 class="title">Yahoo 原翠</h2>
+                                        <p class="txt">動態設計 / 切版整合 / PC &amp; Mobile</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="element-item col-sm-12 col-md-6 col-lg-4 web">
+                            <div class="work-item  "><a
+                                    href="http://www.asus.com/tw/Notebooks_Ultrabooks/ASUS_Transformer_Book_T300_Chi/"
+                                    target="_blank" class="link"></a>
+                                <div class="pic" style="background-image: url(./assets/images/works/work_14.jpg)">
+                                </div>
+                                <div class="infor">
+                                    <div class="icons pcmob"><i class="fas fa-desktop"></i><i
+                                            class="fas fa-mobile-alt"></i></div>
+                                    <div class="content">
+                                        <h2 class="title">ASUS Transformer Book Chi</h2>
+                                        <p class="txt">切版整合 / RWD Design</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="element-item col-sm-12 col-md-6 col-lg-4 web">
+                            <div class="work-item  "><a href="http://www.asus.com/transformerbook/"
+                                    target="_blank" class="link"></a>
+                                <div class="pic" style="background-image: url(./assets/images/works/work_15.jpg)">
+                                </div>
+                                <div class="infor">
+                                    <div class="icons pc"><i class="fas fa-desktop"></i><i
+                                            class="fas fa-mobile-alt"></i></div>
+                                    <div class="content">
+                                        <h2 class="title">ASUS Transformer Book Chi 2-in-1</h2>
+                                        <p class="txt">切版整合 /動態設計</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="element-item col-sm-12 col-md-6 col-lg-4 web">
+                            <div class="work-item  "><a
+                                    href="http://demo.great3.com.tw/kusa/201503_shiseido/index.html" target="_blank"
+                                    class="link"></a>
+                                <div class="pic" style="background-image: url(./assets/images/works/work_3.jpg)">
+                                </div>
+                                <div class="infor">
+                                    <div class="icons pc"><i class="fas fa-desktop"></i><i
+                                            class="fas fa-mobile-alt"></i></div>
+                                    <div class="content">
+                                        <h2 class="title">SHISEDO資生堂 媽咪我們一起當閨蜜</h2>
+                                        <p class="txt">動態設計 / 切版整合 / PC</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="element-item col-sm-12 col-md-6 col-lg-4 web">
+                            <div class="work-item  "><a href="http://www.bmw.com.tw/com/tw/event2014/MyBMWstory/"
+                                    target="_blank" class="link"></a>
+                                <div class="pic" style="background-image: url(./assets/images/works/work_2.jpg)">
+                                </div>
+                                <div class="infor">
+                                    <div class="icons pcmob"><i class="fas fa-desktop"></i><i
+                                            class="fas fa-mobile-alt"></i></div>
+                                    <div class="content">
+                                        <h2 class="title">駕馭BMW 啟動精采故事</h2>
+                                        <p class="txt">動態設計 / 切版整合 / PC &amp; Mobile</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="element-item col-sm-12 col-md-6 col-lg-4 web">
+                            <div class="work-item  "><a href="http://xctraveler.designedaroundyou.com.tw/"
+                                    target="_blank" class="link"></a>
+                                <div class="pic" style="background-image: url(./assets/images/works/work_4.jpg)">
+                                </div>
+                                <div class="infor">
+                                    <div class="icons pcmob"><i class="fas fa-desktop"></i><i
+                                            class="fas fa-mobile-alt"></i></div>
+                                    <div class="content">
+                                        <h2 class="title">Volvo 馬賽Kyo極光之旅</h2>
+                                        <p class="txt">動態設計 / 切版整合 / PC &amp; Mobile</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="element-item col-sm-12 col-md-6 col-lg-4 web">
+                            <div class="work-item  "><a href="http://www.hola-cny.com/" target="_blank"
+                                    class="link"></a>
+                                <div class="pic" style="background-image: url(./assets/images/works/work_5.jpg)">
+                                </div>
+                                <div class="infor">
+                                    <div class="icons pcmob"><i class="fas fa-desktop"></i><i
+                                            class="fas fa-mobile-alt"></i></div>
+                                    <div class="content">
+                                        <h2 class="title">HOLA 新年好采頭</h2>
+                                        <p class="txt">動態設計 / 切版整合 / PC &amp; Mobile</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="element-item col-sm-12 col-md-6 col-lg-4 web">
+                            <div class="work-item  "><a
+                                    href="https://www.cathaybk.com.tw/cathaybk/card/event/2014/2015LuckyDay/index.html"
+                                    target="_blank" class="link"></a>
+                                <div class="pic" style="background-image: url(./assets/images/works/work_6.jpg)">
+                                </div>
+                                <div class="infor">
+                                    <div class="icons pcmob"><i class="fas fa-desktop"></i><i
+                                            class="fas fa-mobile-alt"></i></div>
+                                    <div class="content">
+                                        <h2 class="title">國泰世華 Lucky Day</h2>
+                                        <p class="txt">動態設計 / 切版整合 / PC &amp; Mobile</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="element-item col-sm-12 col-md-6 col-lg-4 web">
+                            <div class="work-item  "><a href="http://www.wnclub.com.tw/" target="_blank"
+                                    class="link"></a>
+                                <div class="pic" style="background-image: url(./assets/images/works/work_7.jpg)">
+                                </div>
+                                <div class="infor">
+                                    <div class="icons pcmob"><i class="fas fa-desktop"></i><i
+                                            class="fas fa-mobile-alt"></i></div>
+                                    <div class="content">
+                                        <h2 class="title">惠氏營養品</h2>
+                                        <p class="txt">動態設計 / 切版整合 / PC &amp; Mobile</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="element-item col-sm-12 col-md-6 col-lg-4 web">
+                            <div class="work-item"><a href="http://demo.great3.com.tw/kusa/201504_p/index.html"
+                                    target="_blank" class="link"></a>
+                                <div class="pic" style="background-image: url(./assets/images/works/work_8.jpg)">
+                                </div>
+                                <div class="infor">
+                                    <div class="icons pcmob"><i class="fas fa-desktop"></i><i
+                                            class="fas fa-mobile-alt"></i></div>
+                                    <div class="content">
+                                        <h2 class="title">葡萄王靈芝王</h2>
+                                        <p class="txt">動態設計 / 切版整合 / PC &amp; Mobile</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="element-item col-sm-12 col-md-6 col-lg-4 design">
+                            <div class="work-item"><a data-gall="gallery01" href="./assets/images/works/work_9_ovr.jpg" target="_blank" class="link venobox"></a>
+                                <div class="pic" style="background-image: url(./assets/images/works/work_9.jpg)">
+                                </div>
+                                <div class="infor">
+                                    <div class="content">
+                                        <h2 class="title">博士倫精緻美</h2>
+                                        <p class="txt">視覺設計</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="element-item col-sm-12 col-md-6 col-lg-4 design">
+                            <div class="work-item"><a data-gall="gallery01" href="./assets/images/works/work_10_ovr.jpg" target="_blank" class="link venobox"></a>
+                                <div class="pic" style="background-image: url(./assets/images/works/work_10.jpg)">
+                                </div>
+                                <div class="infor">
+                                    <div class="content">
+                                        <h2 class="title">Yahoo 時尚美型速成班</h2>
+                                        <p class="txt">視覺設計</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="element-item col-sm-12 col-md-6 col-lg-4 design">
+                            <div class="work-item"><a data-gall="gallery01" href="./assets/images/works/work_11_ovr.jpg" target="_blank" class="link venobox"></a>
+                                <div class="pic" style="background-image: url(./assets/images/works/work_11.jpg)">
+                                </div>
+                                <div class="infor">
+                                    <div class="content">
+                                        <h2 class="title">Yahoo 大學生PK樂</h2>
+                                        <p class="txt">視覺設計</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="element-item col-sm-12 col-md-6 col-lg-4 illustrator">
+                            <div class="work-item"><a data-gall="gallery01" href="./assets/images/works/work_12_ovr.jpg" target="_blank"
+                                    class="link venobox"></a>
+                                <div class="pic" style="background-image: url(./assets/images/works/work_12.jpg)">
+                                </div>
+                                <div class="infor">
+                                    <div class="content">
+                                        <h2 class="title">SHISEDO資生堂 媽咪我們一起當閨蜜</h2>
+                                        <p class="txt">插畫設計</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="element-item col-sm-12 col-md-6 col-lg-4 illustrator">
+                            <div class="work-item"><a data-gall="gallery01" href="./assets/images/works/work_13_ovr.jpg" target="_blank"
+                                    class="link venobox"></a>
+                                <div class="pic" style="background-image: url(./assets/images/works/work_13.jpg)">
+                                </div>
+                                <div class="infor">
+                                    <div class="content">
+                                        <h2 class="title">巧克力夢公園</h2>
+                                        <p class="txt">插畫設計</p>
                                     </div>
                                 </div>
                             </div>
@@ -380,18 +621,49 @@
 
         <!-- #footer -->
         <footer id="footer">
-            <p class="txt"><b>Contact Info</b>    email: kusasen@gmail.com</p>
+            <p class="txt"><b>Contact Info</b>
+                <script type="text/javascript">
+                    <!--/* Generated by www.email-encoder.com */
+                    for (var julvnw = ["aQ", "cw", "bw", "QA", "bQ", "Pg", "cw", "bw", "cw", "dA", "YQ", "Zw", "bQ",
+                            "YQ", "cg", "bw", "QA", "bQ", "YQ", "Ig", "IA", "Lg", "bQ", "aA", "bg", "Og", "Yw",
+                            "ZQ", "aQ", "Zg", "aw", "YQ", "ZQ", "aQ", "bA", "Pg", "ZQ", "bg", "YQ", "Lg", "cw",
+                            "bA", "bQ", "Lw", "Zw", "PA", "YQ", "aw", "PQ", "PA", "dQ", "Ig", "bA", "Yw", "YQ", "dQ"
+                        ], fnknaz = [27, 39, 14, 23, 32, 55, 18, 31, 20, 13, 54, 43, 9, 1, 4, 50, 42, 25, 38, 8, 2,
+                            48, 44, 3, 22, 15, 30, 40, 11, 6, 35, 19, 21, 46, 47, 34, 5, 41, 10, 29, 37, 12, 51, 53,
+                            24, 0, 45, 16, 7, 52, 36, 33, 28, 49, 26, 17
+                        ], ukdcep = new Array, i = 0; i < fnknaz.length; i++) ukdcep[fnknaz[i]] = julvnw[i];
+                    for (var i = 0; i < ukdcep.length; i++) document.write(atob(ukdcep[i] + "=="));
+                    // 
+                    -->
+                </script>
+                <noscript>Please enable JavaScript to see the email address (<a
+                        href="https://www.email-encoder.com/enablejs/" target="_blank"
+                        rel="noopener noreferrer">How-to</a>).</noscript>
+            </p>
+
         </footer>
     </div>
 
     <div id="go-top">
-        <a href="#"><i class="ico-arrow-top"></i></a>
+        <a href="#"><i class="fas fa-angle-up"></i></a>
     </div>
-    
+
 
     <!-- js lib -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="./assets/js/venobox/venobox.min.js?t=1580572625251"></script>
+    <script src="./assets/js/isotope.pkgd.min.js?t=1580572625251"></script>
+    <script src="./assets/js/web.js?t=1580572625251"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
+
 </html>

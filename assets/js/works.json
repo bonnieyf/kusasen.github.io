@@ -1,0 +1,125 @@
+{
+	"data":
+	[
+		{
+			"type":"web",
+			"imgUrl":"./assets/images/works/work_0.jpg",
+			"url": "http://demo.great3.com.tw/kusa/201507_nivea/index.html",
+			"device": "pc",
+			"name": "NIVEA 我的美白新標準",
+			"text": "動態設計 / 切版整合 / PC",
+			"date": "2015/05"
+		},
+		{
+			"type":"web",
+			"imgUrl":"./assets/images/works/work_1.jpg",
+			"url": "http://demo.great3.com.tw/kusa/201506_tea/index.html",
+			"device": "pcmob",
+			"name": "Yahoo 原翠",
+			"text": "動態設計 / 切版整合 / PC & Mobile",
+			"date": "2015/06"
+		},{
+			"type":"web",
+			"imgUrl":"./assets/images/works/work_14.jpg",
+			"url": "http://www.asus.com/tw/Notebooks_Ultrabooks/ASUS_Transformer_Book_T300_Chi/",
+			"device": "pcmob",
+			"name": "ASUS Transformer Book Chi",
+			"text": "切版整合 / RWD Design",
+			"date": "2014/12"
+		},{
+			"type":"web",
+			"imgUrl":"./assets/images/works/work_15.jpg",
+			"url": "http://www.asus.com/transformerbook/",
+			"device": "pc",
+			"name": "ASUS Transformer Book Chi 2-in-1",
+			"text": "切版整合 /動態設計",
+			"date": "2015/01"
+		},{
+			"type":"web",
+			"imgUrl":"./assets/images/works/work_3.jpg",
+			"url": "http://demo.great3.com.tw/kusa/201503_shiseido/index.html",
+			"device": "pc",
+			"name": "SHISEDO資生堂 媽咪我們一起當閨蜜",
+			"text": "動態設計 / 切版整合 / PC",
+			"date": "2015/4"
+		},{
+			"type":"web",
+			"imgUrl":"./assets/images/works/work_2.jpg",
+			"url": "http://www.bmw.com.tw/com/tw/event2014/MyBMWstory/",
+			"device": "pcmob",
+			"name": "駕馭BMW 啟動精采故事",
+			"text": "動態設計 / 切版整合 / PC & Mobile",
+			"date": "2014/12"
+		},{
+			"type":"web",
+			"imgUrl":"./assets/images/works/work_4.jpg",
+			"url": "http://xctraveler.designedaroundyou.com.tw/",
+			"device": "pcmob",
+			"name": "Volvo 馬賽Kyo極光之旅",
+			"text": "動態設計 / 切版整合 / PC & Mobile",
+			"date": "2014/9"
+		},{
+			"type":"web",
+			"imgUrl":"./assets/images/works/work_5.jpg",
+			"url": "http://www.hola-cny.com/",
+			"device": "pcmob",
+			"name": "HOLA 新年好采頭",
+			"text": "動態設計 / 切版整合 / PC & Mobile",
+			"date": "2015/1"
+		},{
+			"type":"web",
+			"imgUrl":"./assets/images/works/work_6.jpg",
+			"url": "https://www.cathaybk.com.tw/cathaybk/card/event/2014/2015LuckyDay/index.html",
+			"device": "pcmob",
+			"name": "國泰世華 Lucky Day",
+			"text": "動態設計 / 切版整合 / PC & Mobile",
+			"date": "2015/1"
+		},{
+			"type":"web",
+			"imgUrl":"./assets/images/works/work_7.jpg",
+			"url": "http://www.wnclub.com.tw/",
+			"device": "pcmob",
+			"name": "惠氏營養品",
+			"text": "動態設計 / 切版整合 / PC & Mobile",
+			"date": "2014/12"
+		},{
+			"type":"web",
+			"imgUrl":"./assets/images/works/work_8.jpg",
+			"url": "http://demo.great3.com.tw/kusa/201504_p/index.html",
+			"device": "pcmob",
+			"name": "葡萄王靈芝王",
+			"text": "動態設計 / 切版整合 / PC & Mobile",
+			"date": "2015/14"
+		},{
+			"type":"design",
+			"imgUrl":"./assets/images/works/work_9.jpg",
+			"name": "博士倫精緻美",
+			"text": "視覺設計",
+			"date": "2015/3"
+		},{
+			"type":"design",
+			"imgUrl":"./assets/images/works/work_10.jpg",
+			"name": "Yahoo 時尚美型速成班",
+			"text": "視覺設計",
+			"date": "2015/3"
+		},{
+			"type":"design",
+			"imgUrl":"./assets/images/works/work_11.jpg",
+			"name": "Yahoo 大學生PK樂",
+			"text": "視覺設計",
+			"date": "2015/3"
+		},{
+			"type":"illustrator",
+			"imgUrl":"./assets/images/works/work_12.jpg",
+			"name": "SHISEDO資生堂 媽咪我們一起當閨蜜",
+			"text": "插畫設計",
+			"date": "2015/4"
+		},{
+			"type":"illustrator",
+			"imgUrl":"./assets/images/works/work_13.jpg",
+			"name": "巧克力夢公園",
+			"text": "插畫設計",
+			"date": "2014"
+		}
+	]
+}
